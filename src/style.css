@@ -43,7 +43,7 @@ body {
 .game-board {
 	border: 2px solid #405f79;
 	display: grid;
-	grid-template-columns: repeat(20, 25px);
+	grid-template-columns: repeat(25, 20px);
 	grid-template-rows: repeat(40, 20px);
 }
 
@@ -57,6 +57,29 @@ body {
 
 .start-btn:hover {
 	transform: scale(1.05);
+}
+
+.food {
+	width: 100%;
+	height: 100%;
+	background-color: #ff6e31;
+	border-radius: 100%;
+}
+
+.snake {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	border-radius: 0 !important;
+}
+
+.button-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.button-container > *:not(:last-child) {
+	margin-bottom: 1rem;
 }
 
 @media (prefers-color-scheme: light) {
