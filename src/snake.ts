@@ -7,12 +7,6 @@ enum Direction {
   Right = "RIGHT",
 }
 
-enum Name {
-  name = {
-    myName: "Shubham",
-  },
-}
-
 enum SkipArrEl {
   VericleUp = -25,
   VericleDown = 25,
