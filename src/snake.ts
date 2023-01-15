@@ -13,7 +13,9 @@ enum SkipArrEl {
   HorizontalRight = 1,
   HorizontalLeft = -1,
 }
+enum HeyThere{
 
+}
 class Snake {
   gameBoardEl: NodeListOf<ChildNode>;
   currPos: number;
