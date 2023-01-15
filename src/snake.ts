@@ -1,4 +1,4 @@
-import { scoreEl } from "./variables.ts";
+import { scoreEl } from "./variables";
 
 enum Direction {
   Up = "UP",
